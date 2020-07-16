@@ -16,8 +16,8 @@ package metanode
 
 import (
 	"bytes"
-	"encoding/binary"
 	"github.com/chubaofs/chubaofs/proto"
+	"github.com/chubaofs/chubaofs/util/encoding/binary"
 )
 
 // Dentry wraps necessary properties of the `dentry` information in file system.

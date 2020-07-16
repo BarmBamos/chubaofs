@@ -16,9 +16,9 @@ package proto
 
 import (
 	"bytes"
-	"encoding/binary"
 	"errors"
 	"fmt"
+	"github.com/chubaofs/chubaofs/util/encoding/binary"
 
 	"github.com/chubaofs/chubaofs/util/btree"
 )

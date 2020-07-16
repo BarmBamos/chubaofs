@@ -16,10 +16,10 @@ package metanode
 
 import (
 	"bytes"
-	"encoding/binary"
 	"encoding/json"
 	"fmt"
 	"github.com/chubaofs/chubaofs/proto"
+	"github.com/chubaofs/chubaofs/util/encoding/binary"
 	"io"
 	"sync"
 )
